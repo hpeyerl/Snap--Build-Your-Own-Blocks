@@ -155,15 +155,10 @@ SpriteMorph.uber = PenMorph.prototype;
 
 SpriteMorph.prototype.categories =
     [
-        'motion',
         'phrob_ins',
         'phrob_outs',
         'control',
-        'looks',
-        'sensing',
-        'sound',
         'operators',
-        'pen',
         'variables',
         'lists',
         'other'
