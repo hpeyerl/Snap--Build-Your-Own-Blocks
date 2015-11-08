@@ -2617,6 +2617,16 @@ IDE_Morph.prototype.projectMenu = function () {
         },
         'Select categories of additional blocks to add to this project.'
     );
+    menu.addItem(
+        'Scan Phrobs',
+        function () {
+            myself.droppedText(
+                myself.getURL('/v1/inventory/get/xml'),
+                'inventory'
+            );
+        },
+        'Scan the Phrob chain for devices'
+    );
 
     menu.addItem(
         localize(graphicsName) + '...',

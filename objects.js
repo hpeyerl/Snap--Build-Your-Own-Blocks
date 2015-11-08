@@ -156,6 +156,8 @@ SpriteMorph.uber = PenMorph.prototype;
 SpriteMorph.prototype.categories =
     [
         'motion',
+        'phrob_ins',
+        'phrob_outs',
         'control',
         'looks',
         'sensing',
@@ -168,6 +170,8 @@ SpriteMorph.prototype.categories =
     ];
 
 SpriteMorph.prototype.blockColor = {
+    phrob_ins : new Color(143, 86, 227),
+    phrob_outs: new Color(207, 74, 217),
     motion : new Color(74, 108, 212),
     looks : new Color(143, 86, 227),
     sound : new Color(207, 74, 217),
